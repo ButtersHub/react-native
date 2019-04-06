@@ -16,6 +16,12 @@ LOCAL_SRC_FILES:= \
   folly/hash/SpookyHashV2.cpp \
   folly/container/detail/F14Table.cpp \
   folly/ScopeGuard.cpp \
+  folly/lang/SafeAssert.cpp \
+  folly/lang/Assume.cpp \
+  folly/FileUtil.cpp \
+  folly/portability/SysUio.cpp \
+
+
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)
